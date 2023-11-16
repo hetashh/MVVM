@@ -16,6 +16,6 @@ namespace WpfApp1.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Family { get; set; }
-        //public List<Book> Books { get; set; } = new List<Book>();
+
     }
 }
