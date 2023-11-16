@@ -66,18 +66,6 @@ namespace WpfApp1.ViewModel
                   }));
             }
         }
-        //private string name1;
-        //public string Name1 { 
-        //    get { return name1; } 
-        //    set { name1 = value; OnPropertyChanged(Name1); }
-        //}
-        //private string family1;
-        //public string Family1
-        //{
-        //    get { return family1; }
-        //    set { family1 = value; OnPropertyChanged(Family1); }
-        //}
-        
 
         public Book SelectedBook
         {
