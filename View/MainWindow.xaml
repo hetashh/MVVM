@@ -60,22 +60,7 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-                    <!-- Поле ввода имени пользователя --><!--
-                    <TextBox Name="userNameTextBox" Grid.Row="0" Grid.Column="2" Margin="10" Style="{StaticResource PlaceholderTextBox}" Tag="Имя" Text="{Binding Name1, UpdateSourceTrigger=PropertyChanged}"/>
-
-                    --><!-- Поле ввода фамилии пользователя --><!--
-                    <TextBox Name="userFamilyTextBox" Grid.Row="1" Grid.Column="2" Margin="10" Style="{StaticResource PlaceholderTextBox}" Tag="Фамилия" Text="{Binding Family1, UpdateSourceTrigger=PropertyChanged}"/>
-
-                    --><!-- Кнопка добавления пользователя -->
-                    <!--<Button Name="AddUserButton" Grid.Row="2" Grid.Column="2" Margin="10" Content="Добавить пользователя" Command="{Binding AddUser}" Click="AddUserButton_Click"/>-->
-
-                    <!-- Поле поиска пользователя --><!--
-                    <TextBox Name="userSearchBox" Grid.Row="5" Grid.Column="0" Margin="10" Style="{StaticResource PlaceholderTextBox}" Tag="Поиск по имени или фамилии" Text="{Binding Search1, UpdateSourceTrigger=PropertyChanged}"/>
-                    
-                    --><!-- Кнопка поиска пользователя --><!--
-                    <Button Name="findUserButton" Grid.Row="5" Grid.Column="1" Margin="10" Content="Найти" Command="{Binding SearchUser}"/>-->
-
-                    
+                   
                 </Grid>
             </TabItem>
 
@@ -100,12 +85,6 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
-
-                    <!-- Поле поиска книги --><!--
-                    <TextBox Name="bookSearchBox" Grid.Row="1" Grid.Column="0" Margin="10" Style="{StaticResource PlaceholderTextBox}" Tag="Поиск по названию книги или автору" Text="{Binding Book1, UpdateSourceTrigger=PropertyChanged}"/>
-                    
-                    --><!-- Кнопка поиска книги --><!--
-                    <Button Name="findBookButton" Grid.Row="1" Grid.Column="1" Margin="10" Content="Найти" Command="{Binding SearchBook}"/>-->
                 </Grid>
             </TabItem>
 
